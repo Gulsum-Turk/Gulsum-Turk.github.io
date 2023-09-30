@@ -35,7 +35,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/post1\/"
-        },"genre": "posts","keywords": "Linux, Arch, Paket Yöneticisi","wordcount":  57 ,
+        },"genre": "posts","keywords": "Linux, Arch, Paket Yöneticisi","wordcount":  323 ,
         "url": "http:\/\/example.org\/post1\/","datePublished": "2023-09-30T00:00:00+00:00","dateModified": "2023-09-30T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "","logo": {
@@ -75,8 +75,8 @@
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts" title="İçeriklere göz atın"> İçerikler </a><a class="menu-item" href="/tags" title="İçerik etiketlerine göz atın"> Etiketler </a><a class="menu-item" href="https://github.com/Gulsum-Turk" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Başlık yada içerik arama..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Arama">
+                        <input type="text" placeholder="Başlık veya İçerik arayın..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Ara">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
                         <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Temizle">
@@ -85,13 +85,13 @@
                         <span class="search-button search-loading" id="search-loading-desktop">
                             <i class="fas fa-spinner fa-fw fa-spin"></i>
                         </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-select" title="Switch Theme">
+                    </span><a href="javascript:void(0);" class="menu-item theme-select" title="Temayı Değiştirin">
                     <i class="fas fa-adjust fa-fw"></i>
-                    <select class="color-theme-select" id="theme-select-desktop" title="Switch Theme">
-                        <option value="light"></option>
-                        <option value="dark"></option>
-                        <option value="black"></option>
-                        <option value="auto"></option>
+                    <select class="color-theme-select" id="theme-select-desktop" title="Temayı Değiştirin">
+                        <option value="light">Aydınlık</option>
+                        <option value="dark">Karanlık</option>
+                        <option value="black">Siyah</option>
+                        <option value="auto">Oto</option>
                     </select>
                 </a></div>
         </div>
@@ -115,8 +115,8 @@
         </div>
         <div class="menu" id="menu-mobile"><div class="search-wrapper">
                     <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Başlık yada içerik arama..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Arama">
+                        <input type="text" placeholder="Başlık veya İçerik arayın..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Ara">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
                         <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Temizle">
@@ -129,13 +129,13 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         İptal
                     </a>
-                </div><a class="menu-item" href="/posts" title="İçeriklere göz atın">İçerikler</a><a class="menu-item" href="/tags" title="İçerik etiketlerine göz atın">Etiketler</a><a class="menu-item" href="https://github.com/Gulsum-Turk" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-select" title="Switch Theme">
+                </div><a class="menu-item" href="/posts" title="İçeriklere göz atın">İçerikler</a><a class="menu-item" href="/tags" title="İçerik etiketlerine göz atın">Etiketler</a><a class="menu-item" href="https://github.com/Gulsum-Turk" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-select" title="Temayı Değiştirin">
                 <i class="fas fa-adjust fa-fw"></i>
-                <select class="color-theme-select" id="theme-select-mobile" title="Switch Theme">
-                    <option value="light"></option>
-                    <option value="dark"></option>
-                    <option value="black"></option>
-                    <option value="auto"></option>
+                <select class="color-theme-select" id="theme-select-mobile" title="Temayı Değiştirin">
+                    <option value="light">Aydınlık</option>
+                    <option value="dark">Karanlık</option>
+                    <option value="black">Siyah</option>
+                    <option value="auto">Oto</option>
                 </select>
             </a></div>
     </div>
@@ -151,7 +151,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><span class="author fas fa-user-circle fa-fw"></span><span class='screen-reader-text'>  </span><a href='http://example.org/authors/gulsum-t.'>Gulsum T.</a></span>
                 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;57 kelime&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;323 kelime&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;2 dakika&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="true">
                 <div class="details-summary toc-title">
                     <span>İçerikler</span>
@@ -160,6 +160,11 @@
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#arch-paket-yöneticisi">Arch paket yöneticisi</a></li>
+    <li><a href="#aur-arch-user-repository-kullanımı">Aur (Arch User repository) Kullanımı</a>
+      <ul>
+        <li><a href="#yay-ile-paket-indirme-ve-bazı-komutlar">Yay ile paket indirme ve bazı komutlar:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="arch-paket-yöneticisi" class="headerLink">
@@ -175,7 +180,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Pacman –S paket_ismi
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman –S paket_ismi
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div>
@@ -204,12 +209,97 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Pacman –R paket_ismi
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman –R paket_ismi
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div>
         </div>
     </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Paket Güncelleme<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Pacman ile paket Güncelleme komutu</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman –Syu paket_ismi
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
+        </div>
+    </div>
+<blockquote>
+<blockquote>
+<p>Bu komutla tüm paketlerinizi güncelleyebilirsiniz. <strong>Paketlerinize tek tek güncelleme yapmanıza arch tabanlı dağıtımlarda destek verilmez.</strong> Daha fazla bilgi için &raquo; <a href="https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system" target="_blank" rel="noopener noreferrer">https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system</a></p>
+</blockquote>
+</blockquote>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Paket Arama<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Bu komutla ismini tam olarak bilmediğiniz bir paketi depoda arayabilir ve ilgili paketleri listeleyebilirsiniz</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman –Ss paket_ismi
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
+        </div>
+    </div>
+<p>Paket veritabanı üzerinde sorgulama yapmak için kullanılan parametreler: –S –F –Q
+Detaylı bilgi &raquo; <a href="https://wiki.archlinux.org/title/pacman#Querying_package_databases" target="_blank" rel="noopener noreferrer">https://wiki.archlinux.org/title/pacman#Querying_package_databases</a></p>
+<h2 id="aur-arch-user-repository-kullanımı" class="headerLink">
+    <a href="#aur-arch-user-repository-kullan%c4%b1m%c4%b1" class="header-mark"></a>Aur (Arch User repository) Kullanımı</h2><p>Aur arch kullanıcı havuzu olarak tanımlanır. Bu havuzda kullanıcıların oluşturduğu paketler yer alır. Bu sebeple arch paket havuzundan daha fazla seçenek sunar. Örneğin zoom uygulaması aur içerisinde varken arch havuzunda yoktur. Ancak buradaki paketleri pacman komutuyla doğrudan indirmek mümkün değildir. Aur paketlerini aur yardımcı komutlarıyla veya veya pacman’e ek olarak makepkg komutuyla indirebilirsiniz.</p>
+<p>yazıda pacman wrappers olarak bilinen yay ile aurdan paket indirme yöntemi anlatılacaktır. Konu hakkında daha fazla bilgi için &raquo; <a href="https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers" target="_blank" rel="noopener noreferrer">https://wiki.archlinux.org/title/AUR_helpers#Pacman_wrappers</a></p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Yay Kurulumu<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Yay kurulumu için sırasıyla girilmesi gereken komutlar:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> sudo pacman -S --needed git base-devel
+</span></span><span class="line"><span class="cl"> git clone https://aur.archlinux.org/yay.git
+</span></span><span class="line"><span class="cl"> cd yay
+</span></span><span class="line"><span class="cl"> makepkg -si
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div>
+        </div>
+    </div>
+<p>Bu işlemlerden sonra yay kurulmuş olacaktır.</p>
+<h3 id="yay-ile-paket-indirme-ve-bazı-komutlar" class="headerLink">
+    <a href="#yay-ile-paket-indirme-ve-baz%c4%b1-komutlar" class="header-mark"></a>Yay ile paket indirme ve bazı komutlar:</h3><blockquote>
+<blockquote>
+<p>Aur paketlerini bu web sitesinden bulabilirsiniz &raquo; <a href="https://aur.archlinux.org/packages" target="_blank" rel="noopener noreferrer">https://aur.archlinux.org/packages</a></p>
+</blockquote>
+</blockquote>
+<ul>
+<li>Yay –S paket_ismi &raquo;&gt;  aur paketini indirir ve kurar</li>
+<li>Yay –R paket_ismi &raquo;&gt; paketi siler</li>
+<li>Yay –Syu &raquo; paketleri günceller</li>
+<li>yay &ndash;version &raquo; versiyonunu söyler</li>
+<li>yay -Ss packagename  &raquo; o isimde veya benzer aur deposunda bulunan tüm paketleri listeler</li>
+<li>Yay –Sc  veya yay –Scc &raquo; yüklü paketlerin önbellekte kapladığı alanı ve gereksiz dosyalarını siler. Yani ön bellek temizliği yapar.</li>
+<li>Yay –ps &raquo; yüklü paketler hakkında bilgi verir.</li>
+</ul>
+<hr>
+<p>Detayli bilgi &raquo; yay —help , pacman —help</p>
 </div>
 
         
@@ -218,12 +308,12 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>2023-09-30 tarihinde güncellendi</span>
+                <span>2023-09-30 Tarihinde güncellendi</span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
-            <div class="post-info-md"><span><a class="link-to-mardown" href=/post1/index.md target="_blank" rel="noopener noreferrer">Markdown Oku</a>
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/post1/index.md target="_blank" rel="noopener noreferrer">Markdown oku</a>
                     </span></div>
             <div class="post-info-share"><button title="Şurada Paylaş Twitter" data-sharer="twitter" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı" data-via="xxxx" data-hashtags="Linux,Arch,Paket Yöneticisi"><span class="fab fa-twitter fa-fw"></span></button><button title="Şurada Paylaş Facebook" data-sharer="facebook" data-url="http://example.org/post1/" data-hashtag="Linux"><span class="fab fa-facebook-square fa-fw"></span></button><button title="Şurada Paylaş WhatsApp" data-sharer="whatsapp" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı" data-web><span class="fab fa-whatsapp fa-fw"></span></button><button title="Şurada Paylaş Line" data-sharer="line" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı"><span data-svg-src="/lib/simple-icons/icons/line.min.svg"></span></button><button title="Şurada Paylaş 微博" data-sharer="weibo" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı"><span class="fab fa-weibo fa-fw"></span></button><button title="Şurada Paylaş Myspace" data-sharer="myspace" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı" data-description="arch tabanlı linux dağıtımlarında temel terminal komutları 1"><span data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></span></button><button title="Şurada Paylaş Blogger" data-sharer="blogger" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı" data-description="arch tabanlı linux dağıtımlarında temel terminal komutları 1"><span class="fab fa-blogger fa-fw"></span></button><button title="Şurada Paylaş Evernote" data-sharer="evernote" data-url="http://example.org/post1/" data-title="Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı"><span class="fab fa-evernote fa-fw"></span></button></div>
         </div>
@@ -248,11 +338,11 @@
 
     <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Başa Dön">
             <i class="fas fa-arrow-up fa-fw"></i>
-        </a><a href="#" id="view-comments" class="fixed-button" title="Yorumları Gör">
+        </a><a href="#" id="view-comments" class="fixed-button" title="Yorumları Görüntüle">
             <i class="fas fa-comment fa-fw"></i>
         </a>
     </div><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
-        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Panoya kopyala","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Anladım!","link":"Daha fazla öğren","message":"Bu websitesi deneyiminizi iyileştirmek için çerezleri kullanmaktadır."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"Sonuç bulunamadı","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true}};</script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Panoya kopyala","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Anladım","link":"Daha fazla öğren","message":"Bu websitesi deneyiminizi geliştirmek için Çerezleri kullanır."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"Sonuç bulunamadı","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true}};</script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>

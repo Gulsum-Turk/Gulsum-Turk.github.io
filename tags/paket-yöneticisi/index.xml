@@ -9,10 +9,11 @@
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
                 </author><guid>http://example.org/post1/</guid>
-    <description><![CDATA[ Arch paket yöneticisiPacman (package manager) archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.
+    <description><![CDATA[Arch paket yöneticisiPacman (package manager) archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.
 Paket İndirme Pacman ile paket indirme komutu
-1 Pacman –S paket_ismi Paket ismi kurmak istediğiniz programın archlinux deposundaki ismidir. Bu depoya https://archlinux.org/packages/ adresinden ulaşabilirsiniz.
+1 pacman –S paket_ismi Paket ismi kurmak istediğiniz programın archlinux deposundaki ismidir. Bu depoya https://archlinux.org/packages/ adresinden ulaşabilirsiniz.
 Paket Kaldırma Pacman ile paket kaldırma komutu
-1 Pacman –R paket_ismi ]]></description>
+1 pacman –R paket_ismi Paket Güncelleme Pacman ile paket Güncelleme komutu
+1 pacman –Syu paket_ismi Bu komutla tüm paketlerinizi güncelleyebilirsiniz.]]></description>
 </item></channel>
 </rss>
