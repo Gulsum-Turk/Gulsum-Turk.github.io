@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Webisite - Etiket - Gülsüm Türk</title>
+        <link>http://example.org/tags/webisite/</link>
+        <description>Webisite - Etiket - Gülsüm Türk</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/webisite/" rel="self" type="application/rss+xml" /><item>
+    <title>Github ile Ücretsiz Hosting</title>
+    <link>http://example.org/post2/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+                    <name>Gulsum T.</name>
+                </author><guid>http://example.org/post2/</guid>
+    <description><![CDATA[Bu yazıda Github hesabınızı nasıl hosting olarak kullanabileceğiniz anlatılacaktır]]></description>
+</item></channel>
+</rss>

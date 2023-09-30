@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Arch - Etiket - Gülsüm Türk</title>
+        <link>http://example.org/tags/arch/</link>
+        <description>Arch - Etiket - Gülsüm Türk</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/arch/" rel="self" type="application/rss+xml" /><item>
+    <title>Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı</title>
+    <link>http://example.org/post1/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+                    <name>Gulsum T.</name>
+                </author><guid>http://example.org/post1/</guid>
+    <description><![CDATA[ Arch paket yöneticisiPacman (package manager) archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.
+Paket İndirme Pacman ile paket indirme komutu
+1 Pacman –S paket_ismi Paket ismi kurmak istediğiniz programın archlinux deposundaki ismidir. Bu depoya https://archlinux.org/packages/ adresinden ulaşabilirsiniz.
+Paket Kaldırma Pacman ile paket kaldırma komutu
+1 Pacman –R paket_ismi ]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,56 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Etiket - Gülsüm Türk</title>
+        <link>http://example.org/tags/</link>
+        <description>Tags - Etiket - Gülsüm Türk</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch</title>
+    <link>http://example.org/tags/arch/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/arch/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Github</title>
+    <link>http://example.org/tags/github/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Linux</title>
+    <link>http://example.org/tags/linux/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/linux/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Paket Yöneticisi</title>
+    <link>http://example.org/tags/paket-y%C3%B6neticisi/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/paket-y%C3%B6neticisi/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Webisite</title>
+    <link>http://example.org/tags/webisite/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/webisite/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>HTML</title>
+    <link>http://example.org/tags/html/</link>
+    <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/html/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Markdown</title>
+    <link>http://example.org/tags/markdown/</link>
+    <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
