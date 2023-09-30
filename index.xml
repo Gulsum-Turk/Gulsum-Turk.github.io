@@ -32,5 +32,12 @@ Paket Kaldırma Pacman ile paket kaldırma komutu
     <description><![CDATA[<div class="featured-image">
                 <img src="featured-image.webp" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+</item><item>
+    <title></title>
+    <link>http://example.org/newpost/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/newpost/</guid>
+    <description><![CDATA[]]></description>
 </item></channel>
 </rss>

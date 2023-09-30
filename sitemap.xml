@@ -20,6 +20,7 @@
             <loc>http://example.org/tags/html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/tags/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/about/about/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://example.org/newpost/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/about/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/authors/gulsum-t./</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://example.org/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
