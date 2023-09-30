@@ -3,7 +3,7 @@
         <title>Gülsüm Türk</title>
         <link>http://example.org/</link>
         <description>Yazılım Üzerine Blog Sitesi</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 14:01:51 &#43;0300</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı</title>
@@ -32,6 +32,13 @@ Paket Kaldırma Pacman ile paket kaldırma komutu
     <description><![CDATA[<div class="featured-image">
                 <img src="featured-image.webp" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+</item><item>
+    <title>Yeni</title>
+    <link>http://example.org/yeni/</link>
+    <pubDate>Sat, 30 Sep 2023 14:01:51 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>http://example.org/yeni/</guid>
+    <description><![CDATA[başlangıç]]></description>
 </item><item>
     <title></title>
     <link>http://example.org/newpost/</link>

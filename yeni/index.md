@@ -1,3 +1,4 @@
-# 
+# Yeni
 
-işte buuuuuuuuuuuuuuuuuuuuuuuuu :))))
+
+başlangıç
