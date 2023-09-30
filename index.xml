@@ -7,10 +7,10 @@
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı</title>
-    <link>http://example.org/post1/</link>
+    <link>http://example.org/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_paket_yoneticisi/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
-                </author><guid>http://example.org/post1/</guid>
+                </author><guid>http://example.org/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_paket_yoneticisi/</guid>
     <description><![CDATA[Arch paket yöneticisiPacman (package manager) archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.
 Paket İndirme Pacman ile paket indirme komutu
 1 pacman –S paket_ismi Paket ismi kurmak istediğiniz programın archlinux deposundaki ismidir. Bu depoya https://archlinux.org/packages/ adresinden ulaşabilirsiniz.
@@ -19,10 +19,10 @@ Paket Kaldırma Pacman ile paket kaldırma komutu
 1 pacman –Syu paket_ismi Bu komutla tüm paketlerinizi güncelleyebilirsiniz.]]></description>
 </item><item>
     <title>Github ile Ücretsiz Hosting</title>
-    <link>http://example.org/post2/</link>
+    <link>http://example.org/github_ucretsiz_hosting/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
-                </author><guid>http://example.org/post2/</guid>
+                </author><guid>http://example.org/github_ucretsiz_hosting/</guid>
     <description><![CDATA[Github ile Hosting ve Subdomain Alma RehberiGithub kullanarak ücretsiz bir web site sahibi olmak mümkün. Github pages, kullanıcılarına hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.
 Öncelikle konuya yeni giriş yapanlar için hosting, domain ve subdomain kavramlarını açıklamakla başlayalım.]]></description>
 </item><item>
