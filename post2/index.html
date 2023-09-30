@@ -35,7 +35,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/post2\/"
-        },"genre": "posts","keywords": "Github, Webisite","wordcount":  0 ,
+        },"genre": "posts","keywords": "Github, Webisite","wordcount":  522 ,
         "url": "http:\/\/example.org\/post2\/","datePublished": "2023-09-30T00:00:00+00:00","dateModified": "2023-09-30T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "","logo": {
@@ -147,18 +147,207 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Github ile Ücretsiz Hosting</h1><div class="post-meta">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">İçindekiler</h2>
+        <div class="toc-content always-active" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#github-ile-hosting-ve-subdomain-alma-rehberi">Github ile Hosting ve Subdomain Alma Rehberi</a>
+      <ul>
+        <li><a href="#github-ile-website-oluşturma-adımları">Github ile Website Oluşturma Adımları</a></li>
+        <li><a href="#özel-alan-adını-github-hosting-servisine-entegre-etme">Özel Alan Adını Github Hosting Servisine Entegre Etme</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Github ile Ücretsiz Hosting</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><span class="author fas fa-user-circle fa-fw"></span><span class='screen-reader-text'>  </span><a href='http://example.org/authors/gulsum-t.'>Gulsum T.</a></span>
                 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;0 kelime&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;0 dakika&nbsp;</div>
-        </div><div class="details toc" id="toc-static"  kept="true">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-09-30">2023-09-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;522 kelime&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;3 dakika&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
-                    <span>İçerikler</span>
+                    <span>İçindekiler</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#github-ile-hosting-ve-subdomain-alma-rehberi">Github ile Hosting ve Subdomain Alma Rehberi</a>
+      <ul>
+        <li><a href="#github-ile-website-oluşturma-adımları">Github ile Website Oluşturma Adımları</a></li>
+        <li><a href="#özel-alan-adını-github-hosting-servisine-entegre-etme">Özel Alan Adını Github Hosting Servisine Entegre Etme</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="github-ile-hosting-ve-subdomain-alma-rehberi" class="headerLink">
+    <a href="#github-ile-hosting-ve-subdomain-alma-rehberi" class="header-mark"></a>Github ile Hosting ve Subdomain Alma Rehberi</h2><p>Github kullanarak ücretsiz bir web site sahibi olmak mümkün. Github pages, kullanıcılarına hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır,  web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.</p>
+<p>Öncelikle konuya yeni giriş yapanlar için hosting, domain ve subdomain kavramlarını açıklamakla başlayalım. İnternette dolaşılan her web sitesinin domain ve hostingi olmak zorundadır. Domain tarayıcınızın adres çubuğunda gördüğünüz www ile başlayan kısımdır. Örneğin şuan <a href="https://www.gulsumturk.com" target="_blank" rel="noopener noreferrer">www.gulsumturk.com</a> web sitesindesiniz. Yani bu web sitesinin domaini (alan adı) gulsumturk.com oluyor.</p>
+<p>Hosting kavramı ise ilk defa duyanlar için biraz karmaşık gelebilir. Hostingi türkçeye depolama servisi olarak çevirebiliriz. Web site sayfalarının dosyalar halinde depolandığı yerdir. Bu bilgisayarlara server denir. Bir web sitesine 7/24 ulaşılabilinmesi için bu serverlar, sürekli çalışır durumda bulunurlar. İşte bu hizmet hosting olarak adlandırılır.</p>
+<p>Web site oluşturmak için hosting ve domain satın alabileceğiniz pek çok web sitesi bulunmaktadır. Ancak yazımızın konusu olan github Pages sayesinde bu iki hizmeti ücretsiz olarak elde etmemiz mümkün. Github kullanıcılarına, depolarını hosting olarak kullanmalarına ve githıb.io adresinde subdomain almalarına olanak tanır. Ancak burada sadece statik bir web sitesi oluştuma olanağı mevcut. Statik ve dinamik web sitesi hakkında detaylı bilgiyi <a href="" rel="">buraya</a> tıklayarak ilgili yazımdan öğrenebilirsiniz.</p>
+<p>Şimdi github üzerinden hangi adımları gerçekleştirmemiz gerektiğine bakalım.</p>
+<h3 id="github-ile-website-oluşturma-adımları" class="headerLink">
+    <a href="#github-ile-website-olu%c5%9fturma-ad%c4%b1mlar%c4%b1" class="header-mark"></a>Github ile Website Oluşturma Adımları</h3><p>Github üzerinden hosting ve subdomain hizmeti alabilmek için bir adet kullanıcı hasebınızın bulunuyor olması gerekir. Github ve git kullanımının detayları için ilgili yazımızı okuyabilirsiniz.</p>
+<ol>
+<li>
+<p><strong>Github hesabınıza giriş yapın ve yeni bir depo (Repository) oluşturun.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20new.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20new.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20new.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20new.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20new.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20new.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></p>
+</li>
+<li>
+<p><strong>Deponuza kullanıcı hesabınızın ismini birebir olarak aynı vermeniz gerekiyor. İsminizden sonra “.github.io” ekleyin</strong></p>
+</li>
+</ol>
+<blockquote>
+<p>Örnek &gt; Gulsum.github.io</p>
+</blockquote>
+<p><figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20ismi%20.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20ismi%20.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20ismi%20.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20ismi%20.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20ismi%20.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/depo%20ismi%20.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></p>
+<p>Tüm işlem bu kadar. Oluşturduğunuz depo ismi web sitenizin domaini yani alan adı deponuz ise hosting görevi görür. Deponun içerisine yüklenen html, css veya javascript dosyalarıyla siteyi oluşturmaya başlayabilirsiniz.</p>
+<h3 id="özel-alan-adını-github-hosting-servisine-entegre-etme" class="headerLink">
+    <a href="#%c3%b6zel-alan-ad%c4%b1n%c4%b1-github-hosting-servisine-entegre-etme" class="header-mark"></a>Özel Alan Adını Github Hosting Servisine Entegre Etme</h3><p>Yukarıda bahsedilen şekilde alınan domain subdomaindir. Yani web sitenin adresi example.github.io şeklinde olur. Bunun yerine kendi aldığınız özel alan adını kullanmayı tercih edebilirsiniz. Sitenize özel bir alan adını kullanmak sayfanızın daha profesyonel görünmesinde etkili bir faktördür.</p>
+<p>Aşağıdaki adımları takip ederek oluşturduğunuz github deponuza özel alan adını entegre edebilirsiniz.</p>
+<ol>
+<li><strong>Deponuzu açın ve ayarlar sayfasına gidin.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/ayarlar.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/ayarlar.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/ayarlar.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/ayarlar.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/ayarlar.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/ayarlar.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>Sol tarafta bulunan menüden “Pages” a tıklayın.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/pages.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/pages.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/pages.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/pages.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/pages.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/pages.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>Altta bulunan Custom Domain kısmına kendi özel alan adınızı girin.</strong></li>
+</ol>
+<blockquote>
+<p>Örnek &gt; gulsumturk.com</p>
+</blockquote>
+<p><figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/custom%20domain.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/custom%20domain.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/custom%20domain.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/custom%20domain.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/custom%20domain.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/custom%20domain.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure>
+4.	<strong>Learn more about configuring custum domain &gt; Managing a custom domain for your GitHub Pages site adreslerini takip edin. Bu sayfada özel alan adınızı GitHub ile nasıl birleştireceğiniz detaylı olarak anlatılıyor.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/learn.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/learn.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/learn.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/learn.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/learn.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/learn.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/managing.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/managing.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/managing.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/managing.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/managing.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/managing.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure>
+5.	<strong>Domanin alındığı web sitesine gidin ve hesabınıza girin. Aşağıdaki örnek, Google Domains üzerinden anlatılmıştır.</strong></p>
+<ul>
+<li><strong>Alan adınızı yönete tıklayın.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/y%C3%B6net.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/y%C3%B6net.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/y%C3%B6net.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/y%C3%B6net.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/y%C3%B6net.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/y%C3%B6net.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>Sol taraftaki menüden DNS’e tıklayın.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/dns.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/dns.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/dns.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/dns.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/dns.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/dns.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>“Özel kayıtları yönet” e tıklayın.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/%C3%B6zel%20kay%C4%B1tlar%C4%B1%20y%C3%B6net.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/%C3%B6zel%20kay%C4%B1tlar%C4%B1%20y%C3%B6net.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/%C3%B6zel%20kay%C4%B1tlar%C4%B1%20y%C3%B6net.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/%C3%B6zel%20kay%C4%B1tlar%C4%B1%20y%C3%B6net.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/%C3%B6zel%20kay%C4%B1tlar%C4%B1%20y%C3%B6net.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/%C3%B6zel%20kay%C4%B1tlar%C4%B1%20y%C3%B6net.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>“yeni kayıt oluştur” a tıklayın.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/yeni%20kay%C4%B1t%20.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/yeni%20kay%C4%B1t%20.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/yeni%20kay%C4%B1t%20.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/yeni%20kay%C4%B1t%20.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/yeni%20kay%C4%B1t%20.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/yeni%20kay%C4%B1t%20.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>Görseldeki gibi ana makine adına “www”, tür kısmına CNAME, TTL = 600, veriler bölümüne GitHub subdomaininizi girin ve kaydete tıklayın.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/cname.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/cname.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/cname.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/cname.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/cname.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/cname.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure></li>
+<li><strong>Yeni kayıt oluştura tekrar tıklayın ve bu sefer tür olarak A seçeneğini seçin. Ana makine adını boş bırakın. Veriler kısmına managing sayfasındaki apex domain başlığının altında bulunan ip adreslerini “bu kayda daha fazla ekle” butonunu kullanarak sırayla ekleyin ve kaydedin.</strong>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20t%C3%BCr%C3%BC.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20t%C3%BCr%C3%BC.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20t%C3%BCr%C3%BC.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20t%C3%BCr%C3%BC.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20t%C3%BCr%C3%BC.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20t%C3%BCr%C3%BC.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20b%C3%B6l%C3%BCm%C3%BC%20ipleri.png" title="Yeni Depo Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20b%C3%B6l%C3%BCm%C3%BC%20ipleri.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20b%C3%B6l%C3%BCm%C3%BC%20ipleri.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20b%C3%B6l%C3%BCm%C3%BC%20ipleri.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20b%C3%B6l%C3%BCm%C3%BC%20ipleri.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/a%20b%C3%B6l%C3%BCm%C3%BC%20ipleri.png 2x"
+            sizes="auto"
+            alt="Yeni Depo Oluşturma">
+    </a></figure>
+Bu işlemlerden sonra özel alan adınız ile GitHub sayfanız eşleşmiş olacaktır.</li>
+</ul>
+</div>
 
         
 
@@ -189,7 +378,7 @@
 </div>
 <div id="comments"></div></article></div>
         </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">İyi yaşa, Mutlu öl</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Gulsum T.</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Gulsum T.</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
             <div class="footer-line"></div>
             <div class="footer-line">
             </div>

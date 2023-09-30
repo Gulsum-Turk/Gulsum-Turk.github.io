@@ -9,6 +9,7 @@
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
                 </author><guid>http://example.org/post2/</guid>
-    <description><![CDATA[Bu yazıda Github hesabınızı nasıl hosting olarak kullanabileceğiniz anlatılacaktır]]></description>
+    <description><![CDATA[Github ile Hosting ve Subdomain Alma RehberiGithub kullanarak ücretsiz bir web site sahibi olmak mümkün. Github pages, kullanıcılarına hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.
+Öncelikle konuya yeni giriş yapanlar için hosting, domain ve subdomain kavramlarını açıklamakla başlayalım.]]></description>
 </item></channel>
 </rss>
