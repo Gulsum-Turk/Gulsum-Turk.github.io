@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>HTML - Etiket - Gülsüm Türk</title>
-        <link>http://example.org/tags/html/</link>
+        <link>https://gulsumturk.com/tags/html/</link>
         <description>HTML - Etiket - Gülsüm Türk</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/html/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://gulsumturk.com/tags/html/" rel="self" type="application/rss+xml" /><item>
     <title>Basic Markdown Syntax</title>
-    <link>http://example.org/iki/</link>
+    <link>https://gulsumturk.com/iki/</link>
     <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
                     <name>Dillon</name>
-                </author><guid>http://example.org/iki/</guid>
+                </author><guid>https://gulsumturk.com/iki/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="featured-image.webp" referrerpolicy="no-referrer">
             </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>

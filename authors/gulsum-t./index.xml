@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Gulsum T. - Yazar - Gülsüm Türk</title>
-        <link>http://example.org/authors/gulsum-t./</link>
+        <link>https://gulsumturk.com/authors/gulsum-t./</link>
         <description>Gulsum T. - Yazar - Gülsüm Türk</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><atom:link href="http://example.org/authors/gulsum-t./" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><atom:link href="https://gulsumturk.com/authors/gulsum-t./" rel="self" type="application/rss+xml" /></channel>
 </rss>

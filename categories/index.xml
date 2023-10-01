@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Kategori - Gülsüm Türk</title>
-        <link>http://example.org/categories/</link>
+        <link>https://gulsumturk.com/categories/</link>
         <description>Categories - Kategori - Gülsüm Türk</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://gulsumturk.com/categories/" rel="self" type="application/rss+xml" /><item>
     <title>documentation</title>
-    <link>http://example.org/categories/documentation/</link>
+    <link>https://gulsumturk.com/categories/documentation/</link>
     <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
         <name>Gulsum T.</name>
-    </author><guid>http://example.org/categories/documentation/</guid>
+    </author><guid>https://gulsumturk.com/categories/documentation/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
