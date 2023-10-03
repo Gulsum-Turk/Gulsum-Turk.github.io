@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - Etiket - Gülsüm Türk</title>
+        <link>https://gulsumturk.com/tags/git/</link>
+        <description>git - Etiket - Gülsüm Türk</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Git ve Github Temelleri</title>
+    <link>https://gulsumturk.com/git_github_temelleri/</link>
+    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/git_github_temelleri/</guid>
+    <description><![CDATA[<h2 id="git-ve-github-temelleri" class="headerLink">
+    <a href="#git-ve-github-temelleri" class="header-mark"></a>Git ve Github Temelleri</h2><p>Github nedir?</p>
+<p>Projelerin depolandığı ve paylaşıldığı bir servistir. Basite indirgemek istersek yazılım için üretilmiş bir sosyal medya platformu.
+Bu platformda projelerinizi paylaşabilirsiniz. Paylaşılan projeler üzerinde geliştirmeler yapabilirsiniz.</p>]]></description>
+</item></channel>
+</rss>

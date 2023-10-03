@@ -3,7 +3,7 @@
         <title>Gülsüm Türk</title>
         <link>https://gulsumturk.com/</link>
         <description>Kişisel Blog Sitesi</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</lastBuildDate>
             <atom:link href="https://gulsumturk.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı</title>
@@ -11,28 +11,32 @@
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
                 </author><guid>https://gulsumturk.com/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_paket_yoneticisi/</guid>
-    <description><![CDATA[Arch paket yöneticisiPacman (package manager) archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.
-Paket İndirme Pacman ile paket indirme komutu
-1 pacman –S paket_ismi Paket ismi kurmak istediğiniz programın archlinux deposundaki ismidir. Bu depoya https://archlinux.org/packages/ adresinden ulaşabilirsiniz.
-Paket Kaldırma Pacman ile paket kaldırma komutu
-1 pacman –R paket_ismi Paket Güncelleme Pacman ile paket Güncelleme komutu
-1 pacman –Syu paket_ismi Bu komutla tüm paketlerinizi güncelleyebilirsiniz.]]></description>
+    <description><![CDATA[<h2 id="arch-paket-yöneticisi" class="headerLink">
+    <a href="#arch-paket-y%c3%b6neticisi" class="header-mark"></a>Arch paket yöneticisi</h2><p>Pacman (package manager)  archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.</p>]]></description>
 </item><item>
     <title>Github ile Ücretsiz Hosting</title>
     <link>https://gulsumturk.com/github_ucretsiz_hosting/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
                 </author><guid>https://gulsumturk.com/github_ucretsiz_hosting/</guid>
-    <description><![CDATA[Github ile Hosting ve Subdomain Alma RehberiGithub kullanarak ücretsiz bir web site sahibi olmak mümkün. Github pages, kullanıcılarına hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.
-Öncelikle konuya yeni giriş yapanlar için hosting, domain ve subdomain kavramlarını açıklamakla başlayalım.]]></description>
+    <description><![CDATA[<h2 id="github-ile-hosting-ve-subdomain-alma-rehberi" class="headerLink">
+    <a href="#github-ile-hosting-ve-subdomain-alma-rehberi" class="header-mark"></a>Github ile Hosting ve Subdomain Alma Rehberi</h2><p>Github pages, kullanıcılarına ücretsiz hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.</p>]]></description>
+</item><item>
+    <title>Git ve Github Temelleri</title>
+    <link>https://gulsumturk.com/git_github_temelleri/</link>
+    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/git_github_temelleri/</guid>
+    <description><![CDATA[<h2 id="git-ve-github-temelleri" class="headerLink">
+    <a href="#git-ve-github-temelleri" class="header-mark"></a>Git ve Github Temelleri</h2><p>Github nedir?</p>
+<p>Projelerin depolandığı ve paylaşıldığı bir servistir. Basite indirgemek istersek yazılım için üretilmiş bir sosyal medya platformu.
+Bu platformda projelerinizi paylaşabilirsiniz. Paylaşılan projeler üzerinde geliştirmeler yapabilirsiniz.</p>]]></description>
 </item><item>
     <title>Basic Markdown Syntax</title>
     <link>https://gulsumturk.com/iki/</link>
     <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
                     <name>Dillon</name>
                 </author><guid>https://gulsumturk.com/iki/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item></channel>
 </rss>

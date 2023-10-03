@@ -3,7 +3,8 @@
 
 ## Github ile Hosting ve Subdomain Alma Rehberi
 
-Github kullanarak ücretsiz bir web site sahibi olmak mümkün. Github pages, kullanıcılarına hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır,  web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.
+Github pages, kullanıcılarına ücretsiz hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.
+<!--more-->
 
 Öncelikle konuya yeni giriş yapanlar için hosting, domain ve subdomain kavramlarını açıklamakla başlayalım. İnternette dolaşılan her web sitesinin domain ve hostingi olmak zorundadır. Domain tarayıcınızın adres çubuğunda gördüğünüz www ile başlayan kısımdır. Örneğin şuan www.gulsumturk.com web sitesindesiniz. Yani bu web sitesinin domaini (alan adı) gulsumturk.com oluyor. 
 

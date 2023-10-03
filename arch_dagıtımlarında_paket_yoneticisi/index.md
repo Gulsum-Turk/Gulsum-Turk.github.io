@@ -1,10 +1,12 @@
 # Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı
 
 
- ## Arch paket yöneticisi 
- Pacman (package manager)  archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir. 
+## Arch paket yöneticisi 
+Pacman (package manager)  archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir. 
+<!--more-->
  
- {{< admonition note "Paket İndirme" >}}
+ 
+{{< admonition note "Paket İndirme" >}}
 Pacman ile paket indirme komutu 
 
 ```
@@ -84,8 +86,9 @@ Bu işlemlerden sonra yay kurulmuş olacaktır.
 * yay -Ss packagename  >> o isimde veya benzer aur deposunda bulunan tüm paketleri listeler
 * Yay –Sc  veya yay –Scc >> yüklü paketlerin önbellekte kapladığı alanı ve gereksiz dosyalarını siler. Yani ön bellek temizliği yapar. 
 * Yay –ps >> yüklü paketler hakkında bilgi verir.
-------------
-Detayli bilgi >> yay —help , pacman —help 
+
+>Detaylı bilgi >> yay --help , pacman --help 
+-------------
 
 
 

@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Webisite - Etiket - Gülsüm Türk</title>
+        <title>webisite - Etiket - Gülsüm Türk</title>
         <link>https://gulsumturk.com/tags/webisite/</link>
-        <description>Webisite - Etiket - Gülsüm Türk</description>
+        <description>webisite - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://gulsumturk.com/tags/webisite/" rel="self" type="application/rss+xml" /><item>
     <title>Github ile Ücretsiz Hosting</title>
     <link>https://gulsumturk.com/github_ucretsiz_hosting/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
                 </author><guid>https://gulsumturk.com/github_ucretsiz_hosting/</guid>
-    <description><![CDATA[Github ile Hosting ve Subdomain Alma RehberiGithub kullanarak ücretsiz bir web site sahibi olmak mümkün. Github pages, kullanıcılarına hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.
-Öncelikle konuya yeni giriş yapanlar için hosting, domain ve subdomain kavramlarını açıklamakla başlayalım.]]></description>
+    <description><![CDATA[<h2 id="github-ile-hosting-ve-subdomain-alma-rehberi" class="headerLink">
+    <a href="#github-ile-hosting-ve-subdomain-alma-rehberi" class="header-mark"></a>Github ile Hosting ve Subdomain Alma Rehberi</h2><p>Github pages, kullanıcılarına ücretsiz hosting ve subdomain hizmeti sunar. Bu yazıda sizlere github ile ücretsiz hosting ve subdomain (alt alan adı) nasıl alınır, web site olarak nasıl kullanılır, özel domain (alan adı) github hosting servisine nasıl entegre edilir, sorularının cevabını adım adım açıklayacağım.</p>]]></description>
 </item></channel>
 </rss>

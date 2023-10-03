@@ -3,19 +3,26 @@
         <title>Tags - Etiket - Gülsüm Türk</title>
         <link>https://gulsumturk.com/tags/</link>
         <description>Tags - Etiket - Gülsüm Türk</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>https://gulsumturk.com/tags/git/</link>
+    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>github</title>
+    <link>https://gulsumturk.com/tags/github/</link>
+    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Arch</title>
     <link>https://gulsumturk.com/tags/arch/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
         <name>Gulsum T.</name>
     </author><guid>https://gulsumturk.com/tags/arch/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Github</title>
-    <link>https://gulsumturk.com/tags/github/</link>
-    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/github/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Linux</title>
@@ -32,7 +39,7 @@
     </author><guid>https://gulsumturk.com/tags/paket-y%C3%B6neticisi/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Webisite</title>
+    <title>webisite</title>
     <link>https://gulsumturk.com/tags/webisite/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
         <name>Gulsum T.</name>

@@ -9,11 +9,7 @@
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
                 </author><guid>https://gulsumturk.com/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_paket_yoneticisi/</guid>
-    <description><![CDATA[Arch paket yöneticisiPacman (package manager) archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.
-Paket İndirme Pacman ile paket indirme komutu
-1 pacman –S paket_ismi Paket ismi kurmak istediğiniz programın archlinux deposundaki ismidir. Bu depoya https://archlinux.org/packages/ adresinden ulaşabilirsiniz.
-Paket Kaldırma Pacman ile paket kaldırma komutu
-1 pacman –R paket_ismi Paket Güncelleme Pacman ile paket Güncelleme komutu
-1 pacman –Syu paket_ismi Bu komutla tüm paketlerinizi güncelleyebilirsiniz.]]></description>
+    <description><![CDATA[<h2 id="arch-paket-yöneticisi" class="headerLink">
+    <a href="#arch-paket-y%c3%b6neticisi" class="header-mark"></a>Arch paket yöneticisi</h2><p>Pacman (package manager)  archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.</p>]]></description>
 </item></channel>
 </rss>

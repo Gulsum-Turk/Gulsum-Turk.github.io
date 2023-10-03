@@ -9,8 +9,6 @@
     <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
                     <name>Dillon</name>
                 </author><guid>https://gulsumturk.com/iki/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="featured-image.webp" referrerpolicy="no-referrer">
-            </div><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
+    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item></channel>
 </rss>
