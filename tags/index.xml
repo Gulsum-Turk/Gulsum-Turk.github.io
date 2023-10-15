@@ -1,0 +1,63 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Etiket - Gülsüm Türk</title>
+        <link>https://gulsumturk.com/tags/</link>
+        <description>Tags - Etiket - Gülsüm Türk</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>https://gulsumturk.com/tags/git/</link>
+    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>github</title>
+    <link>https://gulsumturk.com/tags/github/</link>
+    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Arch</title>
+    <link>https://gulsumturk.com/tags/arch/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/arch/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Linux</title>
+    <link>https://gulsumturk.com/tags/linux/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/linux/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Paket Yöneticisi</title>
+    <link>https://gulsumturk.com/tags/paket-y%C3%B6neticisi/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/paket-y%C3%B6neticisi/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>webisite</title>
+    <link>https://gulsumturk.com/tags/webisite/</link>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/webisite/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>HTML</title>
+    <link>https://gulsumturk.com/tags/html/</link>
+    <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/html/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Markdown</title>
+    <link>https://gulsumturk.com/tags/markdown/</link>
+    <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
