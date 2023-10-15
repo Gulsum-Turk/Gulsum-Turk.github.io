@@ -6,7 +6,7 @@ Hugo nedir: Hugo, Go dili ile yazılmış ve web sitesi oluşturmayı yeniden e�
 
 Gereklilikler: 
 1. [Hugo](https://gohugo.io/installation/)'nun indiirlmesi
-2. [Git](https://gohugo.io/installation/)'in indiirlmesi
+2. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)'in indiirlmesi
 
 ### Windows için hugo indirme 
 Chocolatey, Scoop veya Winget paket yöneticilerinden herhangi biri ile indiribeilirsiniz.
@@ -79,18 +79,20 @@ Hugo.toml dosyası sitenizin yapılandırma ayarlarının buunduğu dosyadır. B
 
 Hugo server komutu sitenizi görüntelemenize olanak sağlar. Görselde belirtilen linke tıklayarak sitenizin görünümünü inceleyebilirsiniz. 
 {{< /admonition >}}
-![server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/server.png)
+
+![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/server.png)
 ## İçerik Eklenmesi
 Content klasörünüz içeriklerinizin yer alacağı klasördür. Projenizin olduğu klasör içerisinde aşağıdaki komutla yeni bir post oluşturabilirsiniz. 
 
 ```hugo new content posts/my-first-post.md```
 
-![draft bölümü](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/draft.png)
+![draft](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/draft.png)
 
 Draft bölümün true olması içeriğin taslak olaak kaydedildiği ve görünmeyeceği anlamına gelir. İçeriği yayınlamak için draft’ı false yapın.  İçerik kısmını markdown ile kolayca oluşturabilirsiniz. Markdown yazımı temelleri için [tıklayınız](https://gulsumturk.com/iki/).
 
 ## Ayarlar ve Yayınlama
 Projenizdeki hugo.toml dosyasının yapılandırma ayarlarını barındırdığını söylemiştik.  Buradaki ayarları inceliyerek siteniz için gerekli olanları yapılandırabilirsiniz. 
+
 ![Config](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/config.png)
 
 1. Base url: burada example.org kısmını silerek sitenizin url sini ekleyin. 
