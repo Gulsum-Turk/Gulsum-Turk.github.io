@@ -69,7 +69,7 @@ Klasörü git ile ilişkilendirir.
 
 ```git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke```
 
-Siteniz için seçtiğiniz temayı ekler. Burada örnek olarak ananke teması verilmiştir. Kırmızı ile belirtilen yere kendi temanızın github adresini ekeyin. Github temelleri için [tıklayınız]().
+Siteniz için seçtiğiniz temayı ekler. Burada örnek olarak ananke teması verilmiştir. Kırmızı ile belirtilen yere kendi temanızın github adresini ekeyin. Github temelleri için [tıklayınız](https://gulsumturk.com/git_github_temelleri/).
 
 ```echo "theme = 'ananke'" >> hugo.toml```
 
@@ -87,7 +87,7 @@ Content klasörünüz içeriklerinizin yer alacağı klasördür. Projenizin old
 
 [draft bölümü](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/draft.png)
 
-Draft bölümün true olması içeriğin taslak olaak kaydedildiği ve görünmeyeceği anlamına gelir. İçeriği yayınlamak için draft’ı false yapın.  İçerik kısmını markdown ile kolayca oluşturabilirsiniz. Markdown yazımı temelleri için [tıklayınız]().
+Draft bölümün true olması içeriğin taslak olaak kaydedildiği ve görünmeyeceği anlamına gelir. İçeriği yayınlamak için draft’ı false yapın.  İçerik kısmını markdown ile kolayca oluşturabilirsiniz. Markdown yazımı temelleri için [tıklayınız](https://gulsumturk.com/iki/).
 
 ## Ayarlar ve Yayınlama
 Projenizdeki hugo.toml dosyasının yapılandırma ayarlarını barındırdığını söylemiştik.  Buradaki ayarları inceliyerek siteniz için gerekli olanları yapılandırabilirsiniz. 
