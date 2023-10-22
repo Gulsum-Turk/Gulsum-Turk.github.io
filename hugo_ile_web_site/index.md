@@ -24,23 +24,23 @@ winget install Hugo.Hugo.Extended
 {{< admonition note "Paket yöneticisine göre indirme komutları" >}}
 1. Snap ile indirme:
 
-```Sudo snap install hugo```
+```sudo snap install hugo```
 
 2. Homebrew ile indirme:
 
-```Brew install hugo```
+```brew install hugo```
 
 3. ArchLinux dağıtımları için indirme:
 
-```Sudo pacman –S hugo```
+```sudo pacman –S hugo```
 
 4. Dabian dağıtımları için indirme:
 
-```Sudo apt install hugo```
+```sudo apt install hugo```
 
 5. Fedora için indirme:
 
-```Sudo dnf install hugo```
+```sudo dnf install hugo```
 
 
 {{< /admonition >}}
@@ -96,8 +96,8 @@ Projenizdeki hugo.toml dosyasının yapılandırma ayarlarını barındırdığ�
 ![Config](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post4/config.png)
 
 1. Base url: burada example.org kısmını silerek sitenizin url sini ekleyin. 
-2. Dil kısmına Temanızdaki dil bölümünden dil kodunuzu yapıştırın. Türkçe için >>
-3. Title= site başlığı
+2. Dil: Temanızdaki dil bölümünden dil kodunuzu yapıştırın. Türkçe için >> tr
+3. Title: site başlığı
 
 #### Yayınlama:
 Hugo komutu : Bu komutu kök dizinde çalıştırdığınızda hugo public adında bir klasör oluşturur. Bu klasör mevcut sitenizin yayınlanmaya hazır html dosyalarıdır. Public Klasörünü yayınlayabilirsiniz. 

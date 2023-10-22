@@ -3,7 +3,15 @@
         <title>Tüm İçerikler - Gülsüm Türk</title>
         <link>https://gulsumturk.com/posts/</link>
         <description>Tüm İçerikler | Gülsüm Türk</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 10 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo ile Website Yapımı</title>
+    <link>https://gulsumturk.com/hugo_ile_web_site/</link>
+    <pubDate>Tue, 10 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/hugo_ile_web_site/</guid>
+    <description><![CDATA[<h2 id="hugo" class="headerLink">
+    <a href="#hugo" class="header-mark"></a>Hugo</h2><p>Hugo nedir: Hugo, Go dili ile yazılmış ve web sitesi oluşturmayı yeniden eğlenceli hale getirmek için tasarlanmış hızlı ve modern bir statik site oluşturucudur.</p>]]></description>
+</item><item>
     <title>Git ve Github Temelleri</title>
     <link>https://gulsumturk.com/git_github_temelleri/</link>
     <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
@@ -13,14 +21,6 @@
     <a href="#git-ve-github-temelleri" class="header-mark"></a>Git ve Github Temelleri</h2><p>Github nedir?</p>
 <p>Projelerin depolandığı ve paylaşıldığı bir servistir. Basite indirgemek istersek yazılım için üretilmiş bir sosyal medya platformu.
 Bu platformda projelerinizi paylaşabilirsiniz. Paylaşılan projeler üzerinde geliştirmeler yapabilirsiniz.</p>]]></description>
-</item><item>
-    <title>Hugo ile Website Yapımı</title>
-    <link>https://gulsumturk.com/hugo_ile_web_site/</link>
-    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/hugo_ile_web_site/</guid>
-    <description><![CDATA[<h2 id="hugo" class="headerLink">
-    <a href="#hugo" class="header-mark"></a>Hugo</h2><p>Hugo nedir: Hugo, Go dili ile yazılmış ve web sitesi oluşturmayı yeniden eğlenceli hale getirmek için tasarlanmış hızlı ve modern bir statik site oluşturucudur.</p>]]></description>
 </item><item>
     <title>Github ile Ücretsiz Hosting</title>
     <link>https://gulsumturk.com/github_ucretsiz_hosting/</link>
