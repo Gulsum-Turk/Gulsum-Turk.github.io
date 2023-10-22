@@ -9,7 +9,7 @@ Git işlemlerinin tamamı terminal kullanmadan vs code üzerinden nasıl yapıl�
 Terminalde "git init" olarak verdiğimiz bu komutu Vs Code'da basit şekilde yapmak mümkün. Sol taraftaki icon bardan üçüncü ikon Vs Code'da git işlemelerini yapmaya ve takip etmeye olanak sağlar. 
 <!--more-->
 ![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post5/1.png)
-    Bu ikon tıklandığında aşağıdaki gibi bir görüntü gelecektir. Kırmızı alan içerisinde belirtilen “Initialize Repository” Vs Code'da açmış olduğunuz klasörü git ile ilişkilendirir. Bu işlemden sonra açılan sıdebarda commit, remote, push gibi diğer işlemleri yapmak mümkün.
+    Bu ikon tıklandığında aşağıdaki gibi bir görüntü gelecektir. Kırmızı alan içerisinde belirtilen “Initialize Repository” Vs Code'da açmış olduğunuz klasörü git ile ilişkilendirir. Bu işlemden sonra açılan sidebarda commit, remote, push gibi diğer işlemleri yapmak mümkün.
     ![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post5/2.png)
 
 ![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post5/3.png)
@@ -30,8 +30,8 @@ Git history, Vs Code'da git geçmişini görüntülemenizi sağlayan bir eklenti
 Eklentiyi kurduktan sonra klasörün kenarına görselde belirtilen saat ikonu gelecektir. Bu ikona tıklandığında o klasörde yapılan tüm işlemleri görmek mümkün. Yukarıda yaptığımız commiti şimdi Git History’den inceleyelim. 
 
 ![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post5/8.png)
-Git history sayfası ikiye bölünmüştür. Üst kısımda yapılan commit işlemleri görünür. Biz bu klasör için henüz bir adet commit yaptığımız için br commitimiz listelendi. Alt kısımda ise seçili commitin ayrıntıları yer alır. Bu ekrandaki mavi butonlardan birkaçının ne işe yaradığına bakalım: 
-1. Soft ve hard: Bu iki işlem yaptığımı commiti siler.  
+Git history sayfası ikiye bölünmüştür. Üst kısımda yapılan commit işlemleri görünür. Biz bu klasör için henüz bir adet commit yaptığımız için bir commitimiz listelendi. Alt kısımda ise seçili commitin ayrıntıları yer alır. Bu ekrandaki mavi butonlardan birkaçının ne işe yaradığına bakalım: 
+1. Soft ve hard: Bu iki işlem yaptığım commiti siler.  
 2. Workspace: Dosyanın anlık durumu ile commit edilen halini karşılaştırır.
 3. Previous: Dosyanın bir önceki commiti ile seçili commitini karşılaştırır. 
 
@@ -39,12 +39,12 @@ Bu karşılaştırmalarda yapılan değişiklikler silinenler kırmızı, eklene
 Şimdi klasöre örnek olması için yeni bir dosya ekliyorum ve tekrar commit ediyorum. 
 
 ![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post5/9.png)
-**Yukarıdaki gibi newfile.txt dosyasını ekledim ve “add new files” mesajıyla commit işlemni gerçekleştirdim.** 
+**Yukarıdaki gibi newfile.txt dosyasını ekledim ve “add new files” mesajıyla commit işlemini gerçekleştirdim.** 
 
 ![Server](https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/post5/10.png)
 **İkinci commitim history sayfamda listeye eklenmiş durumda.** 
 ### Githuba yükleme: Push ve remote
-commit yaptıktan sonra seçili klasör için source Control başlığı altında “Publish Branch” butonu oluşacaktır. Bu butona tıklandığında github üzerinde oluşturulacak deponun private yada public mi olması gerektiğini soracaktır. Biz public olanı seçip devam ettiğimizde yeni depo oluşturma, remote ve push olmak üzere bu üç işlemin tamamı otomatik olarak gerçekleştirilir.  
+commit yaptıktan sonra seçili klasör için Source Control başlığı altında “Publish Branch” butonu oluşacaktır. Bu butona tıklandığında github üzerinde oluşturulacak deponun private yada public mi olması gerektiğini soracaktır. Biz public olanı seçip devam ettiğimizde yeni depo oluşturma, remote ve push olmak üzere bu üç işlemin tamamı otomatik olarak gerçekleştirilir.  
 
 **Publish Branch > Public** 
 
