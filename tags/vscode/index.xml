@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>git - Etiket - Gülsüm Türk</title>
-        <link>https://gulsumturk.com/tags/git/</link>
-        <description>git - Etiket - Gülsüm Türk</description>
+        <title>VsCode - Etiket - Gülsüm Türk</title>
+        <link>https://gulsumturk.com/tags/vscode/</link>
+        <description>VsCode - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/git/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/vscode/" rel="self" type="application/rss+xml" /><item>
     <title>Vs Code ile Git Kullanımı</title>
     <link>https://gulsumturk.com/taslak1/</link>
     <pubDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</pubDate><author>
@@ -14,15 +14,5 @@
     <a href="#vs-code-git-terminalsiz-git-kullan%c4%b1m%c4%b1" class="header-mark"></a>VS Code Git: Terminalsiz Git Kullanımı</h2><p>Git işlemlerinin tamamı terminal kullanmadan vs code üzerinden nasıl yapılır, bu yazıda anlatılmaktadır.</p>
 <h3 id="git-ile-ilişikilendirme" class="headerLink">
     <a href="#git-ile-ili%c5%9fikilendirme" class="header-mark"></a>Git ile ilişikilendirme</h3><p>Terminalde &ldquo;git init&rdquo; olarak verdiğimiz bu komutu Vs Code&rsquo;da basit şekilde yapmak mümkün. Sol taraftaki icon bardan üçüncü ikon Vs Code&rsquo;da git işlemelerini yapmaya ve takip etmeye olanak sağlar.</p>]]></description>
-</item><item>
-    <title>Git ve Github Temelleri</title>
-    <link>https://gulsumturk.com/git_github_temelleri/</link>
-    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/git_github_temelleri/</guid>
-    <description><![CDATA[<h2 id="git-ve-github-temelleri" class="headerLink">
-    <a href="#git-ve-github-temelleri" class="header-mark"></a>Git ve Github Temelleri</h2><p>Github nedir?</p>
-<p>Projelerin depolandığı ve paylaşıldığı bir servistir. Basite indirgemek istersek yazılım için üretilmiş bir sosyal medya platformu.
-Bu platformda projelerinizi paylaşabilirsiniz. Paylaşılan projeler üzerinde geliştirmeler yapabilirsiniz.</p>]]></description>
 </item></channel>
 </rss>

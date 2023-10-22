@@ -4,7 +4,17 @@
         <link>https://gulsumturk.com/tags/github/</link>
         <description>github - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/github/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/github/" rel="self" type="application/rss+xml" /><item>
+    <title>Vs Code ile Git Kullanımı</title>
+    <link>https://gulsumturk.com/taslak1/</link>
+    <pubDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/taslak1/</guid>
+    <description><![CDATA[<h2 id="vs-code-git-terminalsiz-git-kullanımı" class="headerLink">
+    <a href="#vs-code-git-terminalsiz-git-kullan%c4%b1m%c4%b1" class="header-mark"></a>VS Code Git: Terminalsiz Git Kullanımı</h2><p>Git işlemlerinin tamamı terminal kullanmadan vs code üzerinden nasıl yapılır, bu yazıda anlatılmaktadır.</p>
+<h3 id="git-ile-ilişikilendirme" class="headerLink">
+    <a href="#git-ile-ili%c5%9fikilendirme" class="header-mark"></a>Git ile ilişikilendirme</h3><p>Terminalde &ldquo;git init&rdquo; olarak verdiğimiz bu komutu Vs Code&rsquo;da basit şekilde yapmak mümkün. Sol taraftaki icon bardan üçüncü ikon Vs Code&rsquo;da git işlemelerini yapmaya ve takip etmeye olanak sağlar.</p>]]></description>
+</item><item>
     <title>Git ve Github Temelleri</title>
     <link>https://gulsumturk.com/git_github_temelleri/</link>
     <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>

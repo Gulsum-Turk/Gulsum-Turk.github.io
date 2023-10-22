@@ -2,15 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://gulsumturk.com/</loc><lastmod>2023-10-10T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://gulsumturk.com/tags/git/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/github/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/posts/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/taslak1/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/vscode/</loc><lastmod>2023-10-22T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://gulsumturk.com/tags/hugo/</loc><lastmod>2023-10-10T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://gulsumturk.com/hugo_ile_web_site/</loc><lastmod>2023-10-10T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://gulsumturk.com/posts/</loc><lastmod>2023-10-10T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://gulsumturk.com/tags/</loc><lastmod>2023-10-10T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://gulsumturk.com/tags/website/</loc><lastmod>2023-10-10T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://gulsumturk.com/tags/git/</loc><lastmod>2023-10-03T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://gulsumturk.com/git_github_temelleri/</loc><lastmod>2023-10-03T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://gulsumturk.com/tags/github/</loc><lastmod>2023-10-03T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://gulsumturk.com/tags/arch/</loc><lastmod>2023-09-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://gulsumturk.com/github_ucretsiz_hosting/</loc><lastmod>2023-09-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://gulsumturk.com/tags/linux/</loc><lastmod>2023-09-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>

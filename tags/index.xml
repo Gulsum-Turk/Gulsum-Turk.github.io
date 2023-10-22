@@ -4,7 +4,28 @@
         <link>https://gulsumturk.com/tags/</link>
         <description>Tags - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Tue, 10 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>https://gulsumturk.com/tags/git/</link>
+    <pubDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>github</title>
+    <link>https://gulsumturk.com/tags/github/</link>
+    <pubDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/github/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>VsCode</title>
+    <link>https://gulsumturk.com/tags/vscode/</link>
+    <pubDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/vscode/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>hugo</title>
     <link>https://gulsumturk.com/tags/hugo/</link>
     <pubDate>Tue, 10 Oct 2023 11:37:59 &#43;0300</pubDate><author>
@@ -17,20 +38,6 @@
     <pubDate>Tue, 10 Oct 2023 11:37:59 &#43;0300</pubDate><author>
         <name>Gulsum T.</name>
     </author><guid>https://gulsumturk.com/tags/website/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>git</title>
-    <link>https://gulsumturk.com/tags/git/</link>
-    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/git/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>github</title>
-    <link>https://gulsumturk.com/tags/github/</link>
-    <pubDate>Tue, 03 Oct 2023 11:37:59 &#43;0300</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/github/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Arch</title>
@@ -66,13 +73,6 @@
     <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
         <name>Gulsum T.</name>
     </author><guid>https://gulsumturk.com/tags/html/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Markdown</title>
-    <link>https://gulsumturk.com/tags/markdown/</link>
-    <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/markdown/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
