@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
             <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/git/" rel="self" type="application/rss+xml" /><item>
     <title>Vs Code ile Git Kullanımı</title>
-    <link>https://gulsumturk.com/taslak1/</link>
+    <link>https://gulsumturk.com/vs_code_git/</link>
     <pubDate>Sun, 22 Oct 2023 11:37:59 &#43;0300</pubDate><author>
         <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/taslak1/</guid>
+    </author><guid>https://gulsumturk.com/vs_code_git/</guid>
     <description><![CDATA[<h2 id="vs-code-git-terminalsiz-git-kullanımı" class="headerLink">
     <a href="#vs-code-git-terminalsiz-git-kullan%c4%b1m%c4%b1" class="header-mark"></a>VS Code Git: Terminalsiz Git Kullanımı</h2><p>Git işlemlerinin tamamı terminal kullanmadan vs code üzerinden nasıl yapılır, bu yazıda anlatılmaktadır.</p>
 <h3 id="git-ile-ilişikilendirme" class="headerLink">
