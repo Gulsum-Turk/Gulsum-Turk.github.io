@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
             <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://gulsumturk.com/tags/paket-y%C3%B6neticisi/" rel="self" type="application/rss+xml" /><item>
     <title>Linux Arch Dağıtımlarında Paket Yöneticisi Kullanımı</title>
-    <link>https://gulsumturk.com/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_paket_yoneticisi/</link>
+    <link>https://gulsumturk.com/arch_dagitimlarinda_paket_yoneticisi/</link>
     <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
                     <name>Gulsum T.</name>
-                </author><guid>https://gulsumturk.com/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_paket_yoneticisi/</guid>
+                </author><guid>https://gulsumturk.com/arch_dagitimlarinda_paket_yoneticisi/</guid>
     <description><![CDATA[<h2 id="arch-paket-yöneticisi" class="headerLink">
     <a href="#arch-paket-y%c3%b6neticisi" class="header-mark"></a>Arch paket yöneticisi</h2><p>Pacman (package manager)  archlinux ve dağıtımları için kullanılan paket yöneticisidir. Terminal kullanarak paket indirme, kaldırma, güncelleme işlemlerini yapılmasına olanak verir.</p>]]></description>
 </item></channel>
