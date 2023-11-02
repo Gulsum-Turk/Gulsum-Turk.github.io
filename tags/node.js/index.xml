@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>node.js - Etiket - Gülsüm Türk</title>
+        <link>https://gulsumturk.com/tags/node.js/</link>
+        <description>node.js - Etiket - Gülsüm Türk</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Thu, 02 Nov 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/node.js/" rel="self" type="application/rss+xml" /><item>
+    <title>Node.js Kurulumu: Linux arch tabanlı dağıtımlar</title>
+    <link>https://gulsumturk.com/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_nojejs_npm/</link>
+    <pubDate>Thu, 02 Nov 2023 11:37:59 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/arch_dag%C4%B1t%C4%B1mlar%C4%B1nda_nojejs_npm/</guid>
+    <description><![CDATA[<p>Arch tabanlı Linux işletim sistemlerine Node.js kurmak için birkaç farklı yöntem vardır. En yaygın yöntemlerden biri, Node.js&rsquo;yi paket yöneticisi aracılığıyla kurmaktır.</p>]]></description>
+</item></channel>
+</rss>
