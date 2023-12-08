@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-    <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><atom:link href="https://gulsumturk.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster>
+    <atom:link href="https://gulsumturk.com/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://gulsumturk.com/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>gulsum@gulsum.com (Gulsum T.)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gulsum@gulsum.com (Gulsum T.)</author>
       <guid>https://gulsumturk.com/about/about/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
