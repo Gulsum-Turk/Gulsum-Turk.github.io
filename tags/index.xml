@@ -4,7 +4,28 @@
         <link>https://gulsumturk.com/tags/</link>
         <description>Tags - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Thu, 02 Nov 2023 11:37:59 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Arduino</title>
+    <link>https://gulsumturk.com/tags/arduino/</link>
+    <pubDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/arduino/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>IoT</title>
+    <link>https://gulsumturk.com/tags/iot/</link>
+    <pubDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/iot/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Wokwi</title>
+    <link>https://gulsumturk.com/tags/wokwi/</link>
+    <pubDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/tags/wokwi/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>arch</title>
     <link>https://gulsumturk.com/tags/arch/</link>
     <pubDate>Thu, 02 Nov 2023 11:37:59 &#43;0300</pubDate><author>
@@ -52,27 +73,6 @@
     <pubDate>Tue, 10 Oct 2023 11:37:59 &#43;0300</pubDate><author>
         <name>Gulsum T.</name>
     </author><guid>https://gulsumturk.com/tags/website/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Linux</title>
-    <link>https://gulsumturk.com/tags/linux/</link>
-    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/linux/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Paket Yöneticisi</title>
-    <link>https://gulsumturk.com/tags/paket-y%C3%B6neticisi/</link>
-    <pubDate>Sat, 30 Sep 2023 00:00:00 &#43;0000</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/paket-y%C3%B6neticisi/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>HTML</title>
-    <link>https://gulsumturk.com/tags/html/</link>
-    <pubDate>Sun, 01 Dec 2019 00:00:00 &#43;0000</pubDate><author>
-        <name>Gulsum T.</name>
-    </author><guid>https://gulsumturk.com/tags/html/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
