@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>Arduino Cloud ve Wokwi ile Iot Projesi - Gülsüm Türk</title><meta name="Description" content="Kişisel Blog Sitesi"><meta property="og:title" content="Arduino Cloud ve Wokwi ile Iot Projesi" />
+<meta property="og:description" content="
+Bu etkinlikte wokwi similasyonu üzerinden oluşturulan projeyi Arduino Clouda bağlayacağız. Cloud üzerinden devreki ledi ve lcd ekranı kontrol edecek, dht sensöründen verileri clouda taşıyacağız.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gulsumturk.com/arduino_iot_project/" /><meta property="og:image" content="https://gulsumturk.com/deneme.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-08T10:29:01+03:00" />
+<meta property="article:modified_time" content="2023-12-08T10:29:01+03:00" /><meta property="og:site_name" content="Gülsüm Türk" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gulsumturk.com/deneme.png"/>
+
+<meta name="twitter:title" content="Arduino Cloud ve Wokwi ile Iot Projesi"/>
+<meta name="twitter:description" content="
+Bu etkinlikte wokwi similasyonu üzerinden oluşturulan projeyi Arduino Clouda bağlayacağız. Cloud üzerinden devreki ledi ve lcd ekranı kontrol edecek, dht sensöründen verileri clouda taşıyacağız.
+"/>
+<meta name="twitter:site" content="@xxxx"/>
+<meta name="application-name" content="DoIt">
+<meta name="apple-mobile-web-app-title" content="DoIt">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://gulsumturk.com/arduino_iot_project/" /><link rel="prev" href="https://gulsumturk.com/arduino_cloud_wokwi/" />
+<link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Arduino Cloud ve Wokwi ile Iot Projesi",
+        "inLanguage": "tr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/gulsumturk.com\/arduino_iot_project\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/gulsumturk.com\/avatar2.webp",
+                            "width":  1653 ,
+                            "height":  1931 
+                        }],"genre": "posts","keywords": "Arduino, IoT, Wokwi","wordcount":  278 ,
+        "url": "https:\/\/gulsumturk.com\/arduino_iot_project\/","datePublished": "2023-12-08T10:29:01+03:00","dateModified": "2023-12-08T10:29:01+03:00","publisher": {
+            "@type": "Organization",
+            "name": "Gülsüm Türk","logo": "https:\/\/raw.githubusercontent.com\/Gulsum-Turk\/pictures\/main\/logo\/logo.webp"},"author": {
+                "@type": "Person",
+                "name": "Gulsum T."
+            },"description": ""
+    }
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Gülsüm Türk"><img
+        class="logo"
+        loading="lazy"
+        src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png"
+        srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png 2x"
+        sizes="auto"
+        alt="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png"
+        title="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png" >  Gülsüm Türk</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts" title="İçeriklere göz atın"> İçerikler </a><a class="menu-item" href="/tags" title="İçerik etiketlerine göz atın"> Etiketler </a><a class="menu-item" href="https://github.com/Gulsum-Turk" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Başlık veya İçerik arayın..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Ara">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Temizle">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-select" title="Temayı Değiştirin">
+                    <i class="fas fa-adjust fa-fw"></i>
+                    <select class="color-theme-select" id="theme-select-desktop" title="Temayı Değiştirin">
+                        <option value="light">Aydınlık</option>
+                        <option value="dark">Karanlık</option>
+                        <option value="black">Siyah</option>
+                        <option value="auto">Oto</option>
+                    </select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Gülsüm Türk"><img
+        class="logo"
+        loading="lazy"
+        src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png"
+        srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png 2x"
+        sizes="auto"
+        alt="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png"
+        title="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/logo/greenlogo_bigsize.png" >  Gülsüm Türk</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Başlık veya İçerik arayın..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Ara">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Temizle">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        İptal
+                    </a>
+                </div><a class="menu-item" href="/posts" title="İçeriklere göz atın">İçerikler</a><a class="menu-item" href="/tags" title="İçerik etiketlerine göz atın">Etiketler</a><a class="menu-item" href="https://github.com/Gulsum-Turk" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-select" title="Temayı Değiştirin">
+                <i class="fas fa-adjust fa-fw"></i>
+                <select class="color-theme-select" id="theme-select-mobile" title="Temayı Değiştirin">
+                    <option value="light">Aydınlık</option>
+                    <option value="dark">Karanlık</option>
+                    <option value="black">Siyah</option>
+                    <option value="auto">Oto</option>
+                </select>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">İçindekiler</h2>
+        <div class="toc-content always-active" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#adım-1-arduino-cloud">Adım 1: <strong>Arduino Cloud</strong></a></li>
+    <li><a href="#adım-2-arduino-cloud-dashboard">Adım 2: <strong>Arduino Cloud Dashboard</strong></a></li>
+    <li><a href="#adım-3-wokwi-simülasyonu">Adım 3: <strong>Wokwi Simülasyonu</strong></a></li>
+    <li><a href="#adım-4-projeyi-çalıştırma">Adım 4: <strong>Projeyi Çalıştırma</strong></a></li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Arduino Cloud ve Wokwi ile Iot Projesi</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">Gulsum T.</a>
+                </span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="12-08-2023">12-08-2023</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="12-08-2023">12-08-2023</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;278 kelime&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;2 dakika&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png"
+        srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png 2x"
+        sizes="auto"
+        alt="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png"
+        title="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png" height="auto"   width="auto" ></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>İçindekiler</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#adım-1-arduino-cloud">Adım 1: <strong>Arduino Cloud</strong></a></li>
+    <li><a href="#adım-2-arduino-cloud-dashboard">Adım 2: <strong>Arduino Cloud Dashboard</strong></a></li>
+    <li><a href="#adım-3-wokwi-simülasyonu">Adım 3: <strong>Wokwi Simülasyonu</strong></a></li>
+    <li><a href="#adım-4-projeyi-çalıştırma">Adım 4: <strong>Projeyi Çalıştırma</strong></a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><blockquote>
+<p>Bu etkinlikte wokwi similasyonu üzerinden oluşturulan projeyi Arduino Clouda bağlayacağız. Cloud üzerinden devreki ledi ve lcd ekranı kontrol edecek, dht sensöründen verileri clouda taşıyacağız.</p>
+</blockquote>
+<h2 id="adım-1-arduino-cloud" class="headerLink">
+    <a href="#ad%c4%b1m-1-arduino-cloud" class="header-mark"></a>Adım 1: <strong>Arduino Cloud</strong></h2><ol>
+<li>
+<p>Arduino Cloud üzerinden <strong>ücretsiz bir hesap</strong> oluşturun.</p>
+</li>
+<li>
+<p>IoT projesi için yeni bir <strong>&ldquo;thing&rdquo;</strong> oluşturun.</p>
+<p><figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/01.png" title="Thing Oluştur" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/01.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/01.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/01.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/01.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/01.png 2x"
+            sizes="auto"
+            alt="Thing Oluştur">
+    </a></figure>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/02.png" title="Thing Oluştur" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/02.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/02.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/02.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/02.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/02.png 2x"
+            sizes="auto"
+            alt="Thing Oluştur">
+    </a></figure></p>
+</li>
+</ol>
+<p>Bu sayfada üç bölüm var. &ldquo;Variables&rdquo; bizim projemizde kullancağımız değişkenleri ifade eder. &ldquo;Device&rdquo; kısmından kullanılacak cihaz tanımlaması ve yönetimi yapılır. &ldquo;Network&rdquo; kısmından ağ ayarları gerçekleşir.
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/03.png" title="Network Ayarları" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/03.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/03.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/03.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/03.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/03.png 2x"
+            sizes="auto"
+            alt="Network Ayarları">
+    </a></figure></p>
+<ol start="3">
+<li>
+<p>Proje için dört adet variable oluşturun:</p>
+<ol>
+<li><strong>İsim:</strong> sicaklik, <strong>Tür:</strong> Temperature sensor (°C), <strong>İzinler:</strong> <em>Read Only</em></li>
+<li><strong>İsim:</strong> nem, <strong>Tür:</strong> Relative humidity, <strong>İzinler:</strong> <em>Read Only</em></li>
+<li><strong>İsim:</strong> mesaj, <strong>Tür:</strong> Character string, <strong>İzinler:</strong> <em>Read &amp; Write</em></li>
+<li><strong>İsim:</strong> led, <strong>Tür:</strong> Boolean, <strong>İzinler:</strong> <em>Read &amp; Write</em></li>
+</ol>
+<p><figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/04.png" title="Variable Oluşturma" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/04.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/04.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/04.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/04.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/04.png 2x"
+            sizes="auto"
+            alt="Variable Oluşturma">
+    </a></figure></p>
+</li>
+<li>
+<p>Ardından, <strong>&ldquo;device&rdquo;</strong> ayarlamalarına geçin ve şu adımları takip ederek cihazı seçin:</p>
+<ul>
+<li>Add device &gt; Third party device &gt; ESP32 &gt; DOIT ESP32 DEVKIT V1</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Bu adımları tamamladıktan sonra <strong>&ldquo;secret key&rdquo;</strong> ve <strong>&ldquo;device id&rdquo;</strong> bilgilerini kopyalayın ve not defterine kaydedin!</p>
+</blockquote>
+<ol start="5">
+<li>Son olarak, <strong>network ayarlarını</strong> yapılandırın. Wi-fi name olarak <strong>&ldquo;Wokwi-GUEST&rdquo;</strong> yazın ve password kısmını boş bırakın. Secret key kutucuğuna kopyaladığınız secret key&rsquo;i ekleyin.</li>
+</ol>
+<h2 id="adım-2-arduino-cloud-dashboard" class="headerLink">
+    <a href="#ad%c4%b1m-2-arduino-cloud-dashboard" class="header-mark"></a>Adım 2: <strong>Arduino Cloud Dashboard</strong></h2><ol>
+<li>
+<p>Sol menüden <strong>Dashboard&rsquo;ı</strong> seçin.</p>
+</li>
+<li>
+<p><strong>&ldquo;CREATE DASHBOARD&rdquo;</strong> butonuna tıklayarak yeni bir dashboard oluşturun.</p>
+</li>
+<li>
+<p>Düzenleme bölümüne geçin ve Add butonuna tıklayarak şu adımları takip edin:</p>
+<p>Things &gt; proje_ismi &gt; Tüm variable&rsquo;ları seçin &gt; <strong>&ldquo;Create widgets&rdquo;</strong> diyerek tamamlayın.</p>
+<p><figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/05.png" title="Dashboard Ayarları" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/05.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/05.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/05.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/05.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/05.png 2x"
+            sizes="auto"
+            alt="Dashboard Ayarları">
+    </a></figure>
+<figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/06.png" title="Dashboard Ayarları" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/06.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/06.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/06.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/06.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/06.png 2x"
+            sizes="auto"
+            alt="Dashboard Ayarları">
+    </a></figure></p>
+</li>
+</ol>
+<h2 id="adım-3-wokwi-simülasyonu" class="headerLink">
+    <a href="#ad%c4%b1m-3-wokwi-sim%c3%bclasyonu" class="header-mark"></a>Adım 3: <strong>Wokwi Simülasyonu</strong></h2><p>Bu projenin Wokwi uygulamasının <a href="https://wokwi.com/projects/383461584635405313" target="_blank" rel="noopener noreferrer">hazır linkine buradan ulaşabilirsiniz</a>.</p>
+<p>Kodları kendi cloudunuza göre düzenlemek için <code>thingsProperties.h</code> dosyasını açın ve aşağıdaki kısımları kendinize göre değiştirin.</p>
+<ul>
+<li>DEVICE_LOGIN_NAME &ldquo;kaydettiğiniz_device_id&rdquo;</li>
+<li>DEVICE_KEY &ldquo;kaydettiğiniz_secret_key&rdquo;</li>
+</ul>
+<p><figure><a class="lightgallery" href="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/07.png" title="Wokwi" data-thumbnail="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/07.png">
+        <img
+            
+            loading="lazy"
+            src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/07.png"
+            srcset="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/07.png, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/07.png 1.5x, https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/07.png 2x"
+            sizes="auto"
+            alt="Wokwi">
+    </a></figure></p>
+<h2 id="adım-4-projeyi-çalıştırma" class="headerLink">
+    <a href="#ad%c4%b1m-4-projeyi-%c3%a7al%c4%b1%c5%9ft%c4%b1rma" class="header-mark"></a>Adım 4: <strong>Projeyi Çalıştırma</strong></h2><p>Artık simülasyonu başlatabilirsiniz. Simülasyonun clouda bağlanması birkaç dakika sürebilir. Simülasyon önce wi-fi ye bağlanacak ardından cloud ile bağlantı kuracaktır.</p>
+<p>Dashboardda oluşturduğunuz widgetlardan simülasyondaki ledi ve lcd yi kontrol edebilir, dht sensörden gelen verileri de ilgili widgetlarda görebilirsiniz.</p></div>
+
+        
+
+
+<h2>İlgili içerik</h2>
+<div class="related-container">
+    <div class="related-item-container">
+            <h2 class="related-title">
+                <a href="/arduino_cloud_wokwi/">Arduino Cloud ve Wokwi</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>12-08-2023 Tarihinde güncellendi</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/arduino_iot_project/index.md target="_blank" rel="noopener noreferrer">Markdown oku</a>
+                    </span></div>
+            <div class="post-info-share"><button title="Şurada Paylaş Twitter" data-sharer="twitter" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi" data-via="xxxx" data-hashtags="Arduino,IoT,Wokwi"><span class="fab fa-twitter fa-fw"></span></button><button title="Şurada Paylaş Facebook" data-sharer="facebook" data-url="https://gulsumturk.com/arduino_iot_project/" data-hashtag="Arduino"><span class="fab fa-facebook-square fa-fw"></span></button><button title="Şurada Paylaş WhatsApp" data-sharer="whatsapp" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi" data-web><span class="fab fa-whatsapp fa-fw"></span></button><button title="Şurada Paylaş Line" data-sharer="line" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi"><span data-svg-src="/lib/simple-icons/icons/line.min.svg"></span></button><button title="Şurada Paylaş 微博" data-sharer="weibo" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi" data-image="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png"><span class="fab fa-weibo fa-fw"></span></button><button title="Şurada Paylaş Myspace" data-sharer="myspace" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi" data-description=""><span data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></span></button><button title="Şurada Paylaş Blogger" data-sharer="blogger" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi" data-description=""><span class="fab fa-blogger fa-fw"></span></button><button title="Şurada Paylaş Evernote" data-sharer="evernote" data-url="https://gulsumturk.com/arduino_iot_project/" data-title="Arduino Cloud ve Wokwi ile Iot Projesi"><span class="fab fa-evernote fa-fw"></span></button></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/arduino/">Arduino</a>,&nbsp;<a href="/tags/iot/">IoT</a>,&nbsp;<a href="/tags/wokwi/">Wokwi</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Geri</a></span>&nbsp;|&nbsp;<span><a href="/">Anasayfa</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/arduino_cloud_wokwi/" class="prev" rel="prev" title="Arduino Cloud ve Wokwi"><i class="fas fa-angle-left fa-fw"></i>Arduino Cloud ve Wokwi</a></div>
+</div>
+<div id="comments"></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Gulsum T.</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="Başa Dön">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="Yorumları Görüntüle">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Panoya kopyala","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Anladım","link":"Daha fazla öğren","message":"Bu websitesi deneyiminizi geliştirmek için Çerezleri kullanır."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"Sonuç bulunamadı","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true}};</script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>
