@@ -4,7 +4,18 @@
         <link>https://gulsumturk.com/tags/arduino/</link>
         <description>Arduino - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Thu, 07 Dec 2023 22:29:01 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/arduino/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/arduino/" rel="self" type="application/rss+xml" /><item>
+    <title>Arduino Cloud ve Wokwi ile Iot Projesi</title>
+    <link>https://gulsumturk.com/arduino_iot_project/</link>
+    <pubDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/arduino_iot_project/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://raw.githubusercontent.com/Gulsum-Turk/pictures/main/Arduino/banner.png" referrerpolicy="no-referrer">
+            </div><blockquote>
+<p>Bu etkinlikte wokwi similasyonu üzerinden oluşturulan projeyi Arduino Clouda bağlayacağız. Cloud üzerinden devreki ledi ve lcd ekranı kontrol edecek, dht sensöründen verileri clouda taşıyacağız.</p>
+</blockquote>]]></description>
+</item><item>
     <title>Arduino Cloud ve Wokwi</title>
     <link>https://gulsumturk.com/arduino_cloud_wokwi/</link>
     <pubDate>Thu, 07 Dec 2023 22:29:01 &#43;0300</pubDate><author>

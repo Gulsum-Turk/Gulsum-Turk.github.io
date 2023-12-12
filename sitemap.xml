@@ -2,13 +2,14 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://gulsumturk.com/tags/arduino/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/arduino/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/arduino_iot_project/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/iot/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/posts/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://gulsumturk.com/tags/wokwi/</loc><lastmod>2023-12-08T10:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://gulsumturk.com/arduino_cloud_wokwi/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://gulsumturk.com/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://gulsumturk.com/tags/iot/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://gulsumturk.com/posts/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://gulsumturk.com/tags/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://gulsumturk.com/tags/wokwi/</loc><lastmod>2023-12-07T22:29:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://gulsumturk.com/tags/arch/</loc><lastmod>2023-11-02T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://gulsumturk.com/tags/node.js/</loc><lastmod>2023-11-02T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://gulsumturk.com/arch_dagitimlarinda_nojejs_npm/</loc><lastmod>2023-11-02T11:37:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
