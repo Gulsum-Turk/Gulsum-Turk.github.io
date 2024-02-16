@@ -4,7 +4,17 @@
         <link>https://gulsumturk.com/tags/arduino/</link>
         <description>Arduino - Etiket - Gülsüm Türk</description>
         <generator>Hugo -- gohugo.io</generator><language>tr</language><managingEditor>gulsum@gulsum.com (Gulsum T.)</managingEditor>
-            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/arduino/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>gulsum@gulsum.com (Gulsum T.)</webMaster><lastBuildDate>Fri, 16 Feb 2024 18:48:18 &#43;0300</lastBuildDate><atom:link href="https://gulsumturk.com/tags/arduino/" rel="self" type="application/rss+xml" /><item>
+    <title>Arduino Trafik Seti Projesi</title>
+    <link>https://gulsumturk.com/arduino_traffic_project/</link>
+    <pubDate>Fri, 16 Feb 2024 18:48:18 &#43;0300</pubDate><author>
+        <name>Gulsum T.</name>
+    </author><guid>https://gulsumturk.com/arduino_traffic_project/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://github.com/Gulsum-Turk/pictures/blob/main/arduino_araba/kapak.png?raw=true" referrerpolicy="no-referrer">
+            </div><p><strong>Arduino ile Kırmızı Işıkta Duran araba Yapmak</strong></p>
+<p>Arduino trafik projesi, uzaktan kumandalı araba ve trafik setini içerien bir <em>IOT projesidir.</em> Bu projede <strong>esp8266 kartı</strong> ile wifi üzerinden kontrol edilebilen bir araç geliştirilmiştir. Trafik setinde ise arduino kartı ile trafik ışıklarının kırmızı ve yeşil olarak yanmasını sağlıyoruz. Projedeki kodlar aracın önüne bariyer çıktığında ilerlemesini engelleyecek şekilde ayarlanmıştır.</p>]]></description>
+</item><item>
     <title>Arduino Cloud ve Wokwi ile Iot Projesi</title>
     <link>https://gulsumturk.com/arduino_iot_project/</link>
     <pubDate>Fri, 08 Dec 2023 10:29:01 &#43;0300</pubDate><author>
